@@ -10,7 +10,7 @@ pipeline {
 
         stage('test') {
             steps {
-                echo 'Clarusway_Way to Reinvent Yourself'
+                echo 'This step for test'
                 sh 'whoami'
                 sh 'pwd'
                 sh 'ls'
