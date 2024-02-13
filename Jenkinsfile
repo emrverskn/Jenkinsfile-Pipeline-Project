@@ -10,7 +10,7 @@ pipeline {
 
         stage('test') {
             steps {
-                echo 'This step for test'
+                echo 'This step testing some basic commands'
                 sh 'whoami'
                 sh 'pwd'
                 sh 'ls'
