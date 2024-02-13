@@ -19,7 +19,7 @@ pipeline {
 
         stage('run') {
             steps {
-                echo 'Clarusway_Way to Reinvent Yourself'
+                echo 'These Python codes running version command and py file'
                 sh 'python3 --version'
                 sh 'python3 pipeline.py'
             }
